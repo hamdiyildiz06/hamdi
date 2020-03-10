@@ -8,7 +8,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/221.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/221.jpg" alt="">
                             <i class="status status-online"></i>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/205.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/205.jpg" alt="">
                             <i class="status status-online"></i>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/206.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/206.jpg" alt="">
                             <i class="status status-online"></i>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/207.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/207.jpg" alt="">
                             <i class="status status-away"></i>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/208.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/208.jpg" alt="">
                             <i class="status status-away"></i>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/209.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/209.jpg" alt="">
                             <i class="status status-away"></i>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/219.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/219.jpg" alt="">
                             <i class="status status-away"></i>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/210.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/210.jpg" alt="">
                             <i class="status status-offline"></i>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/211.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/211.jpg" alt="">
                             <i class="status status-offline"></i>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/212.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/212.jpg" alt="">
                             <i class="status status-offline"></i>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/207.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/207.jpg" alt="">
                             <i class="status status-offline"></i>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                 <div class="media">
                     <div class="media-left">
                         <div class="avatar avatar-xs avatar-circle">
-                            <img src="../assets/images/211.jpg" alt="">
+                            <img src="<?= base_url("assets"); ?>/assets/images/211.jpg" alt="">
                             <i class="status status-offline"></i>
                         </div>
                     </div>

@@ -50,7 +50,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <div class="avatar avatar-xs avatar-circle">
-                                        <img src="../assets/images/221.jpg" alt="">
+                                        <img src="<?= base_url("assets"); ?>/assets/images/221.jpg" alt="">
                                         <i class="status status-online"></i>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <div class="avatar avatar-xs avatar-circle">
-                                        <img src="../assets/images/205.jpg" alt="">
+                                        <img src="<?= base_url("assets"); ?>/assets/images/205.jpg" alt="">
                                         <i class="status status-offline"></i>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <div class="avatar avatar-xs avatar-circle">
-                                        <img src="../assets/images/207.jpg" alt="">
+                                        <img src="<?= base_url("assets"); ?>/assets/images/207.jpg" alt="">
                                         <i class="status status-away"></i>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@
                             <div class="media">
                                 <div class="media-left">
                                     <div class="avatar avatar-xs avatar-circle">
-                                        <img src="../assets/images/211.jpg" alt="">
+                                        <img src="<?= base_url("assets"); ?>/assets/images/211.jpg" alt="">
                                         <i class="status status-away"></i>
                                     </div>
                                 </div>

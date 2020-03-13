@@ -12,6 +12,7 @@
                     <table id="default-datatable" data-plugin="DataTable" class="table table-hover table-striped" cellspacing="0" width="100%">
                         <thead>
                         <tr>
+                            <th class="text-center"><i class="fa fa-reorder"></i></th>
                             <th class="text-center">id</th>
                             <th class="text-center">url</th>
                             <th class="text-center">Başlık</th>
@@ -30,9 +31,10 @@
 <!--                            <th class="text-center">İşlem</th>-->
 <!--                        </tr>-->
 <!--                        </tfoot>-->
-                        <tbody>
+                        <tbody class="sortable" data-url="<?= base_url("product/rankSetter"); ?>">
                         <?php foreach ($items as $item): ?>
-                            <tr>
+                            <tr id="ord-<?= $item->id; ?>">
+                                <td><i class="fa fa-reorder"></i></td>
                                 <td><?= $item->id; ?></td>
                                 <td><?= $item->url; ?></td>
                                 <td><?= $item->title; ?></td>

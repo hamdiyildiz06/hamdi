@@ -41,10 +41,10 @@
                                     <input id="switch-2-2" type="checkbox" data-switchery data-color="#10c469" checked />
                                 </td>
                                 <td class="text-center">
-                                    <a href="" class="btn btn-sm btn-outline btn-danger ">
+                                    <a href="<?= base_url("product/delete/{$item->id}"); ?>" class="btn btn-sm btn-outline btn-danger ">
                                         <i class="fa fa-trash-o"></i> Sil
                                     </a>
-                                    <a href="" class="btn btn-sm btn-outline btn-info ">
+                                    <a href="<?= base_url("product/update_form/{$item->id}"); ?>" class="btn btn-sm btn-outline btn-info ">
                                         <i class="fa fa-pencil-square-o"></i> Düzenle
                                     </a>
                                 </td>

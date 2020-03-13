@@ -38,12 +38,22 @@
                                 <td><?= $item->title; ?></td>
                                 <td><?= $item->description; ?></td>
                                 <td>
-                                    <input id="switch-2-2" type="checkbox" data-switchery data-color="#10c469" checked />
+                                    <input
+                                            data-url="<?= base_url("product/isActiveSetter/{$item->id}"); ?>"
+                                            class="isActive"
+                                            id="switch-2-2"
+                                            type="checkbox"
+                                            data-switchery
+                                            data-color="#10c469"
+                                            <?= ($item->isActive == 1) ? 'checked' : null; ?>
+                                             />
                                 </td>
                                 <td class="text-center">
-                                    <a href="<?= base_url("product/delete/{$item->id}"); ?>" class="btn btn-sm btn-outline btn-danger ">
+                                    <button
+                                            data-url="<?= base_url("product/delete/{$item->id}"); ?>"
+                                            class="btn btn-sm btn-outline btn-danger remove-btn">
                                         <i class="fa fa-trash-o"></i> Sil
-                                    </a>
+                                    </button>
                                     <a href="<?= base_url("product/update_form/{$item->id}"); ?>" class="btn btn-sm btn-outline btn-info ">
                                         <i class="fa fa-pencil-square-o"></i> Düzenle
                                     </a>
